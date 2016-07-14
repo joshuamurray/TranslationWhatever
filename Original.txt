@@ -70,7 +70,7 @@ var Session = function(){
      * @param callback
      */
     this.shut = function( callback ){
-        $this.ajax.send( "/gui/login/logout", callback );
+        $this.ajax.send( "/gui/login/logout", calk );
     }
 
     /**
